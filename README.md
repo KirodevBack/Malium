@@ -12,7 +12,7 @@ malium is a faster fork of [tellurium](https://github.com/plooshi/Tellurium), th
 
 ## how much faster is it?
 
-| case | malium (tellurium) | malium | gain |
+| case | tellurium | malium | gain |
 | --- | ---: | ---: | ---: |
 | redirected request | 361.7 ns | 266.1 ns | 26.4% |
 | non-redirected request | 327.3 ns | 242.8 ns | 25.8% |
