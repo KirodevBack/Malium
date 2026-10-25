@@ -9,7 +9,6 @@ malium is a faster fork of [tellurium](https://github.com/plooshi/Tellurium), th
 - **string searches** are bounded, so they're safe on empty strings.
 - **`s += s`** is now safe.
 - **`FString` members** are initialized by default, and redirect loops use array bounds.
-- **renamed** the project, namespace, solution and dll to malium.
 
 ## how much faster is it?
 
